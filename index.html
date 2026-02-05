@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Will you be my valentine?</title>
 </head>
-<body style="margin: 0; min-height: 100vh; min-height: -webkit-fill-available; display: flex; justify-content: center; align-items: center; overflow: hidden; background-color: #f5c6f5;">
+<body style="margin: 0; min-height: 100vh; min-height: -webkit-fill-available; display: flex; justify-content: center; align-items: center; overflow: hidden;">
     <div style="text-align: center;">
         <video width="500" autoplay muted loop playsinline controls>
         <source src="/seltest/video/sel.mp4" type="video/mp4">
@@ -14,6 +14,13 @@
 
         <h1 id="question">Will you be my Valentine?</h1>
 
+            <style>
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #f5c6f5;
+    }
+        
         <div id="buttons">
             <button id="yesBtn" onclick="sayYes()">Yes</button>
             <button id="noBtn" onclick="sayNo()">No</button>
